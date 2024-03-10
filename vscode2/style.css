@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins;wght@300;400;500:600:700:800:900&display=swap");
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(card.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wrapper{
+    height: 355px;
+    width: 300px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255, .2);
+    backdrop-filter: blur(35px);
+    box-shadow: 0 0 10px rgb(0,0,0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;   
+}
+.wrapper i{
+    position: absolute;
+    top: 30%;
+    margin-left: 130px;
+    height: 50px;
+    background: translateY(-50%);
+    font-size: 20px;
+}
+.wrapper .input-box{
+    position: relative;
+    width: 1000 px;
+    height: 50px;
+    background: transparent;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 70%;
+    height:30%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(255,255,255,2);
+    border-radius: 40px;
+    font-size: #fff;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: #fff;
+}
+.wrapper .btn{
+    width: 40%;
+    height: 45px;
+    margin-right: 20px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0.1);
+    cursor: pointer;
+    color: #333;
+    font-weight: 600;
+}
+.wrapper .btm{
+    width: 40%;
+    height: 45px;
+    margin-left: 0px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0.1);
+    cursor: pointer;
+    color: #333;
+    font-weight: 600;
+}
